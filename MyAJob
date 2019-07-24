@@ -1,0 +1,33 @@
+package mypackage;
+
+public class MyAJob {
+
+	public static void main(String[] args) {
+		String name = "my name: ";
+		String myName = "pijus";
+		String newName = name + myName;
+		System.out.println(newName);
+		String computer = "my computer name: ";
+		String comName = "Windows.";
+
+		String comp = computer + comName;
+		System.out.println(comp);
+
+		String mobile = "my mobile name";
+		String pane = " pancle";
+
+		String myPhone = mobile + pane;
+		System.out.println(myPhone);
+		String watch = "my watch name: ";
+		String notebook = "desktop";
+		System.out.println(watch + notebook);
+		String iphone = "my iphone name: ";
+		String roy = "sushanta";
+		System.out.println(iphone + roy);
+		String beer = "my beer name: ";
+		String pellow = "bag";
+		System.out.println(beer + pellow);
+
+	}
+
+}
