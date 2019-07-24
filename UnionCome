@@ -1,0 +1,27 @@
+package mypackage;
+
+public class UnionCome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    
+		
+		String g="pijus";
+		System.out.println(g);
+		
+		String j="jon tp";
+		System.out.println(j);
+		
+		String dhaka="new york";
+		int length=dhaka.length();
+		System.out.println(length);
+		
+		String l="manhattan in new york city";
+		int length1=l.length();
+		System.out.println(length1);
+		
+		
+		
+	}
+
+}
