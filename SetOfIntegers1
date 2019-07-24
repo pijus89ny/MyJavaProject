@@ -1,0 +1,42 @@
+package newclass;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+
+
+public class SetOfIntegers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	Set<Integer>mystudent=new HashSet<Integer>();
+		
+		
+		
+		
+	
+		mystudent.add(112);
+		mystudent.add(113);
+		mystudent.add(114);
+		mystudent.add(114);
+		mystudent.add(113);
+		mystudent.add(117);
+		mystudent.add(118);
+		mystudent.add(113);
+		
+		Iterator<Integer>itr=mystudent.iterator();
+		while(itr.hasNext()) {
+			Integer element=itr.next();
+			System.out.println(element);
+			for (Integer item:mystudent) {
+				System.out.println(item);
+				mystudent.forEach(System.out::println);
+			}
+		}
+		
+	}
+
+}
