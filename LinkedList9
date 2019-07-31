@@ -1,0 +1,25 @@
+package collectiondemo;
+
+import java.util.LinkedList;
+
+public class LinkedList5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		LinkedList my=new LinkedList();
+		
+		my.add("pijus");
+		my.add("pijus");
+		my.add(12);
+		my.add(12);
+		my.add(12.12);
+		my.add(12366l);
+		my.add("mondal");
+		my.set(2, 111);
+		System.out.println(my);
+		
+	}
+
+}
