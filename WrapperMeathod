@@ -1,0 +1,23 @@
+package myjob;
+
+public class WrapperMeathod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		Integer i= 12;
+		Double d=12.575;
+		Character c='a';
+		Boolean b=true;
+		System.out.println(i.intValue());
+		
+		System.out.println(d.doubleValue());
+		System.out.println(c.charValue());
+		System.out.println(b.booleanValue());
+		
+		
+	}
+
+}
