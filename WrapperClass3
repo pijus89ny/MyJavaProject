@@ -1,0 +1,28 @@
+package tomorrow;
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Integer myint=new Integer(25);
+		
+		Integer myint1=25;
+		System.out.println(myint1);
+		//make aonther one
+		Integer myone=25;
+		System.out.println(myone);
+		
+		//
+		Integer a=25;
+		System.out.println(a);
+		
+		
+		
+		
+		
+		
+	}
+
+}
