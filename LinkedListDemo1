@@ -1,0 +1,42 @@
+package collectiondemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LinkedList ll = new LinkedList();
+		ll.add("c");
+		ll.add(12);
+		ll.add(12.56);
+		System.out.println(ll);
+		
+		
+		//create another one
+		LinkedList pp = new LinkedList();
+		
+		pp.add("t");
+		pp.add(120);
+		pp.add(12.543);
+		System.out.println(pp);
+		
+		
+		//create another one
+		LinkedList aa = new LinkedList();
+		
+		aa.add("g");
+		aa.add(1234);
+		aa.add(12.098);
+		System.out.println(aa);
+		
+	
+		
+		
+		
+		
+		
+	}
+
+}
