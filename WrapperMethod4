@@ -1,0 +1,19 @@
+package collectiondemo;
+
+public class WrapperMethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Integer myint = 100;
+		String myString = myint.toString();
+		System.out.println(myString);
+		
+		System.out.println(myString+100);
+		
+		
+		
+		
+	}
+
+}
