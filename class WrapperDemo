@@ -1,0 +1,19 @@
+package collection;
+
+public class WrapperDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//create
+		Integer my =new Integer(25);
+		Integer myInt= 5;
+		Double myDuble = 5.99;
+		Character myChar = 'a';
+		System.out.println(myInt);
+		System.out.println(myDuble);
+		System.out.println(myChar);
+		
+	}
+
+}
